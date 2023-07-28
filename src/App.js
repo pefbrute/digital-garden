@@ -14,6 +14,17 @@ const posts = [
     { id: 9, title: 'Maidan (RU)', type: 'presentation', date: '28.07.2023', url: 'https://docs.google.com/presentation/d/1M0AGTXy3vsnUNCvYa4NBIXsLl9cQTMKuInIwhcRwtAY/edit?usp=sharing' },
     { id: 10, title: 'WEB APIs (RU)', type: 'presentation', date: '28.07.2023', url: 'https://docs.google.com/presentation/d/1StCj9dai1_NN3-Ug1DjzkWN3j9SxYPn2xydDRdGe8vY/edit?usp=sharing' },
     { id: 11, title: 'Post #', type: 'article', date: '25.07.2023', url: 'https://example.com/post#' },
+    { id: 12, title: 'Post #', type: 'article', date: '25.07.2023', url: 'https://example.com/post#' },
+    { id: 13, title: 'Post #', type: 'article', date: '25.07.2023', url: 'https://example.com/post#' },
+    { id: 14, title: 'Post #', type: 'article', date: '25.07.2023', url: 'https://example.com/post#' },
+    { id: 15, title: 'Post #', type: 'article', date: '25.07.2023', url: 'https://example.com/post#' },
+    { id: 16, title: 'Post #', type: 'article', date: '25.07.2023', url: 'https://example.com/post#' },
+    { id: 17, title: 'Post #', type: 'article', date: '25.07.2023', url: 'https://example.com/post#' },
+    { id: 18, title: 'Post #', type: 'article', date: '25.07.2023', url: 'https://example.com/post#' },
+    { id: 19, title: 'Post #', type: 'article', date: '25.07.2023', url: 'https://example.com/post#' },
+    { id: 20, title: 'Post #', type: 'article', date: '25.07.2023', url: 'https://example.com/post#' },
+    { id: 21, title: 'Post #', type: 'article', date: '25.07.2023', url: 'https://example.com/post#' },
+    { id: 22, title: 'Post #', type: 'article', date: '25.07.2023', url: 'https://example.com/post#' },    
     // Add more posts as needed
 ];
 
