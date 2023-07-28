@@ -53,7 +53,7 @@ function App() {
         </div>
         <div>
             <Home posts={posts} />
-            <Footer />
+            <Footer theme={theme} />
         </div>
     </div>
   );
