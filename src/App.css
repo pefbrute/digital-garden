@@ -1,38 +1,131 @@
-.App {
-  text-align: center;
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    transition: all 0.25s linear;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.header-container {
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.theme-switch {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    width: 200px;
+    height: 50px;
+    background-color: #2A9D8F;
+    color: #E9C46A;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    font-size: 1em;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.main-container {
+    max-width: 1600px;
+    margin: 0 auto;
+    padding: 0 15px;
 }
 
-.App-link {
-  color: #61dafb;
+.content-container {
+    display: flex;
+    flex-direction: column;
+    min-height: calc(100vh - 20);
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+h1 {
+    font-size: 2.5em;
+    text-align: center;
+    padding: 20px;
+}
+
+.filter-button {
+    display: block;
+    width: 200px;
+    height: 50px;
+    margin: 20px auto;
+    background-color: #2A9D8F;
+    color: #E9C46A;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    font-size: 1em;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.posts {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1rem;
+    padding: 1rem;
+    flex-grow: 1;
+}
+
+.post {
+    background-color: #F4A261; /* Tertiary color of Early Spring theme */
+    padding: 20px;
+    border-radius: 15px;
+    transition: transform .2s; /* Animation */
+}
+
+.post:hover {
+    transform: scale(1.02); /* Slightly enlarge the post on hover */
+}
+
+footer {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: #2A9D8F;
+    color: #E9C46A;
+    padding: 20px 0;
+    bottom: 0;
+    width: 100%;
+    left: 0;
+    box-sizing: border-box;
+}
+
+footer a {
+    color: #E9C46A;
+}
+
+.light {
+    background-color: #ffffff;
+    color: #000000;
+}
+
+.dark {
+    background-color: #264653;  /* Primary color of Early Spring theme */
+    color: #E9C46A;  /* Accent color of Early Spring theme */
+}
+
+.dark h1, .dark h2, .dark h3 {
+    color: #2A9D8F;  /* Secondary color of Early Spring theme */
+}
+
+.dark button {
+    background-color: #E9C46A;  /* Accent color of Early Spring theme */
+    color: #264653;  /* Primary color of Early Spring theme */
+}
+
+.dark .post {
+    background-color: #264653; /* Primary color of Early Spring theme */
+}
+
+.dark .post:hover {
+    background-color: #2A9D8F; /* Slightly lighten the post on hover */
+}
+
+.dark a, .dark footer a {
+    color: #E9C46A;  /* Accent color of Early Spring theme */
 }
