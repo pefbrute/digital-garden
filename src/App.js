@@ -44,14 +44,14 @@ function App() {
     }, [theme]);
 
   return (
-    <div className={`${theme} main-container`}>
+    <div>
         <div className="header-container">
             <h1>My Links</h1>
             <button className="theme-switch" onClick={switchTheme}>
                 Switch to {theme === 'light' ? 'Dark' : 'Light'} Mode
             </button>
         </div>
-        <div>
+        <div className={`${theme} main-container`}>
             <Home posts={posts} />
             <Footer theme={theme} />
         </div>
