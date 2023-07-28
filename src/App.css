@@ -30,7 +30,7 @@ body {
 .main-container {
     max-width: 1600px;
     margin: 0 auto;
-    padding: 0 15px;
+    padding: 0 245px;
     height: 100%;
     position: relative;
     padding-bottom: 230px; 
@@ -90,13 +90,14 @@ footer {
     display: flex;
     justify-content: space-evenly;
     align-items: center;
-    background-color: #2A9D8F;
+    background-color: #FFFFFF;
     color: #E9C46A;
-    padding: 100px 0px;
+    padding: 100px 70px;
     bottom: 0;
-    width: 96.3%;
-    left: 30px;
+    width: 100%;
+    left: 0;
     box-sizing: border-box;
+    border-top: 1px solid #E9C46A;
 }
 
 footer a {
